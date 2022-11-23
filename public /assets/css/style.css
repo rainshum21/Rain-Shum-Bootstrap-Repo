@@ -1,0 +1,150 @@
+
+/*CSS for Dashboard*/
+
+/*General*/
+/*body*/
+body{
+  width: 100%;
+  height: 100%;
+}
+
+/*Achor text style and states*/
+a {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0d6efd; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+/*dropdown menu (only for media(768px) devices)*/
+/*Style drwodown button from default bootstrap style*/
+#dropdown-btn
+{
+background-color: black;
+border: none;
+}
+/*drwodown menu style-fully cover the screen*/
+.dropdown ul{
+  height: 100%;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 99; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: white(0,0,0); /* Black fallback color */
+  background-color:white(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+/*Alignment for dropdown menu on medium devices(768px)*/
+@media only screen and (max-width: 768px) {
+  #top-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+}
+
+/*Sidebar nav*/
+/*Change sidebar nav link from bootstrap default style*/
+ .nav-link{
+  color:white;
+ }
+
+/*Add hover effect to sidebar nav links*/
+ .nav-link:hover {
+  color: #0dcaf0;
+}
+
+#unsolved:hover{
+border: 1px solid#0d6efd;
+
+}
+
+#overdue:hover{
+  border: 1px solid#0d6efd;
+  
+}
+
+#open:hover{
+  border: 1px solid#0d6efd;
+    
+}
+ #onhold:hover{
+  border: 1px solid#0d6efd;
+        
+}
+
+/*Change modal button from default bootstrap style*/
+#button{
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color:#0d6efd;
+  border:none;
+  font-weight: 400 color white;
+ 
+ }
+
+/*Bottom Conteny*/
+/*change card-header from bootstrap default mode*/
+.card-header{
+  background-color: #0dcaf0;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+/*Styling the h5 for cards*/
+article h5{
+  font-weight: 400;
+  color:white;
+}
+
+/*change <p> text in card header from bootstrap default mode*/
+.card-header p{
+  color: white;
+  }
+
+/*change feather-plus icon from default*/
+.plus-icon{
+  width: 25px;
+  height: 25px;
+  color:lightgray;
+}
+
+/*Add hover effect on feather-plus icon*/
+.plus-icon:hover{
+  color:#0dcaf0
+}
+
+/*Alignment for dividers and text of the cards*/
+article ul li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+
+}
+
+/*Change view icon from default style*/
+.view-icon{
+  width: 16px;
+  height: 16px;
+}
+
+/*Change check icon from default style*/
+#flexCheckDefault{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+
+  
+

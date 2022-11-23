@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-assignment-rain-shum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "Rain Shum",
+  "license": "ISC",
+  "private": "true",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
